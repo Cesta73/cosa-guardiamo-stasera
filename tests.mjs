@@ -1,0 +1,21 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {recommend,eligible} from './dist/recommendations.js';
+import {validate,empty,storage} from './dist/storage.js';
+const cat=JSON.parse(fs.readFileSync(new URL('./dist/catalog.json',import.meta.url)));
+const profile=(id,age,tastes={})=>({id,name:id,age,color:'#dce7be',tastes,ratings:{}});
+const s=empty();s.profiles=[profile('adulto',40,{horror:2}),profile('bimbo',6,{family:2})];s.platforms=['Netflix','Disney+'];
+assert.equal(eligible(cat,s,[]).length,0);
+const kids=eligible(cat,s,['adulto','bimbo']);assert(kids.length>0);assert(kids.every(t=>t.age<=6));
+assert(eligible(cat,s,['adulto'],'Disney+').every(t=>t.platforms.includes('Disney+')));
+s.profiles[0].ratings.luca=1;s.profiles[1].ratings.ratatouille=-1;
+assert(eligible(cat,s,['adulto','bimbo']).every(t=>!['luca','ratatouille'].includes(t.id)));
+const rec=recommend(cat,s,['adulto','bimbo'],'light','');assert.equal(rec.length,3);assert.equal(new Set(rec.map(t=>t.id)).size,3);assert(rec.every(t=>t.age<=6));
+const next=recommend(cat,s,['adulto','bimbo'],'light','',rec.map(t=>t.id));assert(next.every(t=>!rec.some(x=>x.id===t.id)));
+const short=recommend(cat,s,['adulto'],'short','');assert(short.every(t=>t.minutes<=45));
+const swapped=structuredClone(s);swapped.profiles.reverse();assert.deepEqual(recommend(cat,s,['adulto','bimbo'],'light','').map(t=>t.id),recommend(cat,swapped,['bimbo','adulto'],'light','').map(t=>t.id));
+assert.equal(eligible(cat,{...s,platforms:['RaiPlay']},['adulto']).length,0);
+assert.doesNotThrow(()=>validate(s));assert.throws(()=>validate({...s,profiles:[{...s.profiles[0],age:-1}]}));assert.throws(()=>validate({...s,profiles:[s.profiles[0],s.profiles[0]]}));assert.throws(()=>validate({...s,pending:{}}));assert.throws(()=>validate({...s,exposures:{x:'bad'}}));
+let raw=null;globalThis.localStorage={getItem:()=>raw,setItem:(k,v)=>raw=v};await storage.save(s);assert.deepEqual(await storage.load(),s);const before=raw;await assert.rejects(()=>storage.import('{"bad":true}'));assert.equal(raw,before);await storage.import(storage.export(s));assert.deepEqual(await storage.load(),s);
+for(const t of cat){assert(t.id&&t.title&&t.source.startsWith('https://'));assert(Number.isInteger(t.minutes)&&t.minutes>0);assert(t.genres.length&&t.platforms.length)}
+console.log('Verificati: età, piattaforme, visti/rifiuti, tre scelte distinte, rotazione, poco tempo, equilibrio tra profili, archivio e importazioni non valide.');

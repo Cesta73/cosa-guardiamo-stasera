@@ -1,0 +1,479 @@
+[
+  {
+    "id": "luca",
+    "title": "Luca",
+    "type": "Film",
+    "minutes": 101,
+    "age": 6,
+    "genres": [
+      "animazione",
+      "family",
+      "fantasy"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "description": "Un’estate sulla riviera, un’amicizia e un segreto da custodire.",
+    "source": "https://www.disneyplus.com/browse/entity-f28b825f-c207-406b-923a-67f85e6d90e0",
+    "color": "#526b58",
+    "durationNote": "minuti",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "ratatouille",
+    "title": "Ratatouille",
+    "type": "Film",
+    "minutes": 111,
+    "age": 6,
+    "genres": [
+      "commedia",
+      "animazione",
+      "family"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "description": "Un piccolo cuoco con un grande sogno nella cucina di Parigi.",
+    "source": "https://www.disneyplus.com/browse/entity-ab7c4e29-04f1-46dd-931a-d43be1ce0f8c",
+    "color": "#b8734f",
+    "durationNote": "minuti",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "toy-story",
+    "title": "Toy Story",
+    "type": "Film",
+    "minutes": 81,
+    "age": 6,
+    "genres": [
+      "animazione",
+      "family",
+      "commedia"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "description": "Quando la cameretta si svuota, i giocattoli hanno molto da raccontare.",
+    "source": "https://movies.disney.com/toy-story",
+    "color": "#435c70",
+    "durationNote": "minuti",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "inside-out",
+    "title": "Inside Out",
+    "type": "Film",
+    "minutes": 95,
+    "age": 6,
+    "genres": [
+      "animazione",
+      "family",
+      "commedia"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "description": "Le emozioni di una ragazzina affrontano un grande cambiamento.",
+    "source": "https://movies.disney.com/inside-out",
+    "color": "#a68552",
+    "durationNote": "minuti",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "wall-e",
+    "title": "WALL·E",
+    "type": "Film",
+    "minutes": 98,
+    "age": 6,
+    "genres": [
+      "fantascienza",
+      "animazione",
+      "romantico"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "description": "Un piccolo robot continua a cercare la bellezza tra le cose dimenticate.",
+    "source": "https://movies.disney.com/wall-e",
+    "color": "#3b6d68",
+    "durationNote": "minuti",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "coco",
+    "title": "Coco",
+    "type": "Film",
+    "minutes": 105,
+    "age": 7,
+    "genres": [
+      "animazione",
+      "family",
+      "fantasy"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "description": "La passione per la musica apre la porta a una straordinaria storia di famiglia.",
+    "source": "https://movies.disney.com/coco",
+    "color": "#725569",
+    "durationNote": "minuti",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "up",
+    "title": "Up",
+    "type": "Film",
+    "minutes": 96,
+    "age": 7,
+    "genres": [
+      "animazione",
+      "family",
+      "drammatico"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "description": "Una casa, tanti palloncini e un viaggio che arriva al momento giusto.",
+    "source": "https://movies.disney.com/up",
+    "color": "#526b58",
+    "durationNote": "minuti",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "incredibili",
+    "title": "Gli Incredibili",
+    "type": "Film",
+    "minutes": 115,
+    "age": 7,
+    "genres": [
+      "azione",
+      "animazione",
+      "family"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "description": "Per questa famiglia di supereroi, la normalità è una vera impresa.",
+    "source": "https://movies.disney.com/the-incredibles",
+    "color": "#b8734f",
+    "durationNote": "minuti",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "klaus",
+    "title": "Klaus - I segreti del Natale",
+    "type": "Film",
+    "minutes": 96,
+    "age": 7,
+    "genres": [
+      "animazione",
+      "commedia",
+      "family"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "description": "Una consegna di lettere può cambiare il destino di una città.",
+    "source": "https://www.netflix.com/it/title/80183187",
+    "color": "#435c70",
+    "durationNote": "minuti",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "sea-beast",
+    "title": "Il mostro dei mari",
+    "type": "Film",
+    "minutes": 115,
+    "age": 7,
+    "genres": [
+      "animazione",
+      "fantasy",
+      "azione"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "description": "Una giovane clandestina mette in discussione le leggende dei grandi cacciatori.",
+    "source": "https://www.netflix.com/it/title/81018682",
+    "color": "#a68552",
+    "durationNote": "minuti",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "enola",
+    "title": "Enola Holmes",
+    "type": "Film",
+    "minutes": 123,
+    "age": 13,
+    "genres": [
+      "crime",
+      "storico",
+      "azione"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "description": "Una giovane investigatrice cerca la propria strada nella Londra vittoriana.",
+    "source": "https://www.netflix.com/it/title/81277950",
+    "color": "#3b6d68",
+    "durationNote": "minuti",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "mitchell",
+    "title": "I Mitchell contro le macchine",
+    "type": "Film",
+    "minutes": 114,
+    "age": 7,
+    "genres": [
+      "commedia",
+      "fantascienza",
+      "animazione"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "description": "Un viaggio di famiglia prende una svolta decisamente tecnologica.",
+    "source": "https://www.netflix.com/it/title/81399614",
+    "color": "#725569",
+    "durationNote": "minuti",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "stranger",
+    "title": "Stranger Things",
+    "type": "Serie",
+    "minutes": 50,
+    "age": 16,
+    "genres": [
+      "fantascienza",
+      "horror",
+      "thriller"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "description": "In una piccola città, una sparizione apre un mistero fuori dal comune.",
+    "source": "https://www.netflix.com/it/title/80057281",
+    "color": "#526b58",
+    "durationNote": "circa per episodio; varia con la puntata",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "wednesday",
+    "title": "Mercoledì",
+    "type": "Serie",
+    "minutes": 50,
+    "age": 14,
+    "genres": [
+      "fantasy",
+      "crime",
+      "commedia"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "description": "Una studentessa molto particolare indaga tra i segreti della sua nuova scuola.",
+    "source": "https://www.netflix.com/it/title/81231974",
+    "color": "#b8734f",
+    "durationNote": "circa per episodio; varia con la puntata",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "queen",
+    "title": "La regina degli scacchi",
+    "type": "Serie",
+    "minutes": 55,
+    "age": 16,
+    "genres": [
+      "drammatico",
+      "storico"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "description": "Talento e ambizione si incontrano davanti a una scacchiera.",
+    "source": "https://www.netflix.com/it/title/80234304",
+    "color": "#435c70",
+    "durationNote": "circa per episodio; varia con la puntata",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "planet",
+    "title": "Il nostro pianeta",
+    "type": "Serie",
+    "minutes": 50,
+    "age": 7,
+    "genres": [
+      "documentari",
+      "family"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "description": "Un viaggio negli habitat del pianeta, tra meraviglia e fragilità.",
+    "source": "https://www.netflix.com/it/title/80049832",
+    "color": "#a68552",
+    "durationNote": "circa per episodio; varia con la puntata",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "bluey",
+    "title": "Bluey",
+    "type": "Serie",
+    "minutes": 7,
+    "age": 0,
+    "genres": [
+      "animazione",
+      "family",
+      "commedia"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "description": "I piccoli giochi quotidiani diventano grandi avventure in famiglia.",
+    "source": "https://www.disneyplus.com/series/bluey/1xy9TAOQ0M3r",
+    "color": "#3b6d68",
+    "durationNote": "circa per episodio; varia con la puntata",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "mandalorian",
+    "title": "The Mandalorian",
+    "type": "Serie",
+    "minutes": 40,
+    "age": 12,
+    "genres": [
+      "fantascienza",
+      "azione",
+      "fantasy"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "description": "Un cacciatore di taglie trova un incarico diverso da tutti gli altri.",
+    "source": "https://www.starwars.com/series/the-mandalorian",
+    "color": "#725569",
+    "durationNote": "circa per episodio; varia con la puntata",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "soul",
+    "title": "Soul",
+    "type": "Film",
+    "minutes": 100,
+    "age": 7,
+    "genres": [
+      "animazione",
+      "commedia",
+      "drammatico"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "description": "Un musicista si ritrova a riflettere sulle piccole cose che rendono speciale la vita.",
+    "source": "https://movies.disney.com/soul",
+    "color": "#526b58",
+    "durationNote": "minuti",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "encanto",
+    "title": "Encanto",
+    "type": "Film",
+    "minutes": 102,
+    "age": 6,
+    "genres": [
+      "animazione",
+      "fantasy",
+      "family"
+    ],
+    "platforms": [
+      "Disney+"
+    ],
+    "description": "In una casa magica, una ragazza cerca il proprio posto in famiglia.",
+    "source": "https://movies.disney.com/encanto",
+    "color": "#b8734f",
+    "durationNote": "minuti",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "totoro",
+    "title": "Il mio vicino Totoro",
+    "type": "Film",
+    "minutes": 86,
+    "age": 4,
+    "genres": [
+      "anime",
+      "fantasy",
+      "family"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "description": "Due sorelle scoprono una presenza sorprendente nella campagna giapponese.",
+    "source": "https://www.netflix.com/it/title/60032294",
+    "color": "#435c70",
+    "durationNote": "minuti",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "spirited",
+    "title": "La città incantata",
+    "type": "Film",
+    "minutes": 125,
+    "age": 10,
+    "genres": [
+      "anime",
+      "fantasy",
+      "animazione"
+    ],
+    "platforms": [
+      "Netflix"
+    ],
+    "description": "Una ragazza entra in un mondo misterioso, dove il coraggio conta più di tutto.",
+    "source": "https://www.netflix.com/it/title/60023642",
+    "color": "#a68552",
+    "durationNote": "minuti",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "ted",
+    "title": "Ted Lasso",
+    "type": "Serie",
+    "minutes": 30,
+    "age": 16,
+    "genres": [
+      "commedia",
+      "drammatico"
+    ],
+    "platforms": [
+      "Apple TV+"
+    ],
+    "description": "Un allenatore affronta una nuova squadra con un ottimismo contagioso.",
+    "source": "https://www.apple.com/it/tv-pr/originals/ted-lasso/",
+    "color": "#3b6d68",
+    "durationNote": "circa per episodio; varia con la puntata",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "severance",
+    "title": "Scissione",
+    "type": "Serie",
+    "minutes": 50,
+    "age": 16,
+    "genres": [
+      "thriller",
+      "fantascienza",
+      "drammatico"
+    ],
+    "platforms": [
+      "Apple TV+"
+    ],
+    "description": "Un ufficio nasconde una divisione molto insolita tra lavoro e vita privata.",
+    "source": "https://www.apple.com/it/tv-pr/originals/severance/",
+    "color": "#725569",
+    "durationNote": "circa per episodio; varia con la puntata",
+    "checked": "2026-10-16"
+  }
+]
